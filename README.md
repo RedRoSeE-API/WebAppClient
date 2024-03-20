@@ -9,7 +9,7 @@
 
 2. When you get all node modules, you should start the client with the command "yarn start" or "npm start" in the terminal
 
-3. When the website is opened it might doesnt work if you didn't start the server witch is in that repository:
+3. When the website is opened it might doesnt work if you didn't start the server witch is in this repository:
 
 https://github.com/RedRoSeE-API/WebAppServer
 
