@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 713px) {
+
+    h3{
+        margin: 10px 0;
+    }
+
+}
+@media only screen and (min-width: 714px) {
+
+    h3{
+        margin: 10px 0;
+    }
+
+    .noteDiv{
+        margin: 20px 0;
+    }
+
+}
+@media only screen and (min-width: 1080px) {
+
+
+}

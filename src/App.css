@@ -1,0 +1,367 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.mainDiv{
+padding: 10px;
+background-color: #FFDEE9;
+background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+min-height: 100vh;
+
+}
+
+@media only screen and (max-width: 713px) {
+   
+    h2{
+        margin: 10px 0;
+    }
+
+    /* GetAll section */
+    .getAllDiv{
+        min-height: 10em;
+        margin-bottom: 40px;   
+    }
+
+    /* GetOne section */
+    .getOneDiv{
+        min-height: 10em;
+        margin-bottom: 20px;   
+    }
+
+    .form-get-one-data{
+        font-size: 20px;
+        display: flex;
+        margin-bottom: 10px;
+    }
+
+    .form-get-one-id-lable{
+        display: flex;
+        align-items: center;
+    }
+
+    .form-get-one-id-input{
+        width: 100px;
+        font-size: 15px;
+        height: 30px;
+        margin-left: 10px;
+    }
+
+    .form-get-one-button{
+        min-width: 100px;
+        height: 35px;
+    }
+
+
+    /* Create section */
+    .createDiv{
+        min-height: 10em;
+        margin-bottom: 20px;
+    }
+
+    .form-create-data{
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .form-create-text-input{
+        min-width: 150px;
+        width: 80%;
+        font-size: 15px;
+        height: 30px;
+    }
+
+    .form-create-button{
+        min-width: 100px;
+        height: 35px;
+    }
+
+    /* Update section */
+    .updateDiv{
+        min-height: 10em;
+        margin-bottom: 40px;
+    }
+
+    .form-update-data{
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+
+    }
+    .form-update-data-id{
+        font-size: 20px;
+        display: flex;
+        margin-bottom: 10px;
+    }
+
+    .form-update-id-lable{
+        display: flex;
+        align-items: center;
+    }
+
+    .form-update-text-input{
+        min-width: 150px;
+        width: 80%;
+        font-size: 15px;
+        height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .form-update-id-input{
+        width: 100px;
+        font-size: 15px;
+        height: 30px;
+        margin-left: 10px;
+    }
+
+    .form-update-button{
+        min-width: 100px;
+        height: 35px;
+    }
+
+    /* Delete section */
+    .deleteDiv{
+        min-height: 10em;
+        margin-bottom: 20px;
+    }
+
+    .form-delete-data{
+        font-size: 20px;
+        display: flex;
+        margin-bottom: 10px;
+    }
+
+    .form-delete-id-lable{
+        display: flex;
+        align-items: center;
+    }
+
+    .form-delete-id-input{
+        width: 100px;
+        font-size: 15px;
+        height: 30px;
+        margin-left: 10px;
+    }
+
+    .form-delete-button{
+        min-width: 100px;
+        height: 35px;
+    }
+
+
+}
+@media only screen and (min-width: 714px) {
+
+    h2{
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    /* GetAll section */
+    .getAllDiv{
+        min-height: 10em;
+        margin-bottom: 40px;   
+    }
+
+    /* GetOne section */
+    .getOneDiv{
+        min-height: 10em;
+        width: 100%;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-get-one{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-get-one-data{
+        font-size: 20px;
+        display: flex;
+        margin-bottom: 10px;
+    }
+
+    .form-get-one-id-lable{
+        display: flex;
+        align-items: center;
+    }
+
+    .form-get-one-id-input{
+        width: 100px;
+        font-size: 15px;
+        height: 30px;
+        margin-left: 10px;
+    }
+
+    .form-get-one-button{
+        min-width: 100px;
+        height: 35px;
+    }
+
+
+    /* Create section */
+    .createDiv{
+        min-height: 10em;
+        margin-bottom: 40px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .form-create{
+        width: 100%;
+        max-width: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-create-data{
+        width: 100%;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .form-create-text-input{
+        min-width: 150px;
+        width: 80%;
+        font-size: 15px;
+        height: 30px;
+    }
+
+    .form-create-button{
+        min-width: 100px;
+        height: 35px;
+    }
+
+    /* Update section */
+    
+    .updateDiv{
+        min-height: 10em;
+        margin-bottom: 40px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .form-update{
+        width: 100%;
+        max-width: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-update-data{
+        width: 100%;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .form-update-data-id{
+        font-size: 20px;
+        display: flex;
+        margin-bottom: 10px;
+    }
+
+    .form-update-id-lable{
+        display: flex;
+        align-items: center;
+    }
+
+    .form-update-text-input{
+        min-width: 150px;
+        width: 80%;
+        font-size: 15px;
+        height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .form-update-id-input{
+        width: 100px;
+        font-size: 15px;
+        height: 30px;
+        margin-left: 10px;
+    }
+
+    .form-update-button{
+        min-width: 100px;
+        height: 35px;
+    }
+
+    /* Delete section */
+    .deleteDiv{
+        min-height: 10em;
+        width: 100%;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-delete{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-delete-data{
+        font-size: 20px;
+        display: flex;
+        margin-bottom: 10px;
+    }
+
+    .form-delete-id-lable{
+        display: flex;
+        align-items: center;
+    }
+
+    .form-delete-id-input{
+        width: 100px;
+        font-size: 15px;
+        height: 30px;
+        margin-left: 10px;
+    }
+
+    .form-delete-button{
+        min-width: 100px;
+        height: 35px;
+    }
+
+
+}
+@media only screen and (min-width: 1080px) {
+
+    .grid-div-1080px{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
