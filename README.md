@@ -1,3 +1,22 @@
+# Instructions on how to run the application locally
+
+1. When you open the project, you should first get all node modules
+  You can use:
+  (I use yarn in this project)
+  - yarn
+  - npm install
+  - other
+
+2. When you get all node modules, you should start the client with the command "yarn start" or "npm start" in the terminal
+
+3.When the website is opened it might doesnt work if you didn't start the server witch is in that repository:
+
+https://github.com/RedRoSeE-API/WebAppServer
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
